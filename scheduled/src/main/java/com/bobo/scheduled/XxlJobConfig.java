@@ -30,8 +30,8 @@ public class XxlJobConfig {
 //    @Value("${}")
 //    private String accessToken;
 //
-//    @Value("${}")
-//    private String logPath;
+    @Value("${xxl.job.executor.logpath}")
+    private String logPath;
 //
 //    @Value("${}")
 //    private String logRetentionDays;
